@@ -1,0 +1,53 @@
+{
+  "name": "amazon-ecommerce-clone-backend",
+  "version": "1.0.0",
+  "description": "The nodejs backend application for e-commerce. It is build on top of expressjs using typescript.",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run build && npm run serve",
+    "serve": "node -r dotenv/config build/server.js",
+    "build": "npm run clean && npm run build-ts",
+    "watch": "concurrently -k -p \"[{name}]\" -n \"TypeScript,Node\" -c \"yellow.bold,cyan.bold,green.bold\" \"npm run watch-ts\" \"npm run watch-node\"",
+    "watch-node": "nodemon -r dotenv/config build/server.js",
+    "clean": "rimraf ./build",
+    "build-ts": "tsc",
+    "watch-ts": "tsc -w",
+    "eslint": "eslint . --ext .js,.ts",
+    "upgrade": "npm update --save-dev && npm update --save",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pallavi-shekhar/amazon-ecommerce-clone-backend.git"
+  },
+  "author": "Pallavi",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.20",
+    "mongoose": "^5.10.11"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^3.0.0",
+    "@types/body-parser": "^1.19.2",
+    "@types/cors": "^2.8.8",
+    "@types/express": "^4.17.8",
+    "@types/hapi__joi": "^17.1.6",
+    "@types/helmet": "^4.0.0",
+    "@types/jsonwebtoken": "^8.5.0",
+    "@types/lodash": "^4.14.163",
+    "@types/mongoose": "^5.7.36",
+    "@types/node": "^14.14.6",
+    "colors": "^1.4.0",
+    "concurrently": "^5.3.0",
+    "dotenv": "^8.2.0",
+    "helmet": "^5.0.2",
+    "nodemon": "^2.0.6",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.5"
+  }
+}
