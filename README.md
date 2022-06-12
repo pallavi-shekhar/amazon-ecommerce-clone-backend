@@ -1,12 +1,12 @@
-# Amazon E-Commerce Clone Backend
-Amazon E-Commerece Clone Backend using Node.js, Express.js, MongoDB, Typescript with architecture layers - Router, Controller and Model
+# Amazon Ecommerce Clone Backend
+Amazon Ecommerce Clone Backend using Node.js, Express.js, MongoDB, Typescript with architecture layers - Router, Controller and Model
 
 <p align="center">
-    <img alt="Amazon E-Commerece Clone Backend" src="https://raw.githubusercontent.com/pallavi-shekhar/amazon-ecommerce-clone-backend/main/assets/amazon-e-commerce-clone-backend.png" />
+    <img alt="Amazon Ecommerce Clone Backend" src="https://raw.githubusercontent.com/pallavi-shekhar/amazon-ecommerce-clone-backend/main/assets/amazon-e-commerce-clone-backend.png" />
 </p>
 
 ## Why this project?
-I am Pallavi, and I have created this project for my learning purpose. I aimed to learn and make a highly modular backend project with a scalable architecture. So, I decided to build this Amazon E-Commerce Clone Backend. I took the AfterAcademy project as a reference to create this project.
+I am Pallavi, and I have created this project for my learning purpose. I aimed to learn and make a highly modular backend project with a scalable architecture. So, I decided to build this Amazon Ecommerce Clone Backend. I took the AfterAcademy project as a reference to create this project.
 
 ## Highlights of the project
 * Node.js
@@ -25,7 +25,7 @@ I am Pallavi, and I have created this project for my learning purpose. I aimed t
     <img alt="Architecture Layer" src="https://raw.githubusercontent.com/pallavi-shekhar/amazon-ecommerce-clone-backend/main/assets/architecture-layer.png" />
 </p>
 
-## Amazon E-Commerece Clone Backend Features
+## Amazon Ecommerce Clone Backend Features
 * Login/SignUp using email and password
 * Add address of User for Delivery
 * Add Product and Product categories 
@@ -33,17 +33,17 @@ I am Pallavi, and I have created this project for my learning purpose. I aimed t
 * Role Based Authorization. Ex - Admin can add product categories. Seller can add products and approve role update for others like adding the role Seller or ADMIN 
 * Admin can approve for role update. Ex - ADMIN can update roles for others like adding the role Seller or ADMIN 
 
-## Public API Flow of Amazon E-Commerece Clone Backend
+## Public API Flow of Amazon Ecommerce Clone Backend
 <p align="center">
      <img alt="Public Api Flow" src="https://raw.githubusercontent.com/pallavi-shekhar/amazon-ecommerce-clone-backend/main/assets/public-api-flow.png" />
 </p>
 
-## Private API Flow of Amazon E-Commerece Clone Backend
+## Private API Flow of Amazon Ecommerce Clone Backend
 <p align="center">
      <img alt="Private Api Flow" src="https://raw.githubusercontent.com/pallavi-shekhar/amazon-ecommerce-clone-backend/main/assets/private-authorized-api-flow.png" />
 </p>
 
-## API documentation of Amazon E-Commerece Clone Backend
+## API documentation of Amazon Ecommerce Clone Backend
 <a href="https://documenter.getpostman.com/view/6307230/Uz5NjDBW" target="_blank">
     <img alt="button-view-api-docs" src="https://raw.githubusercontent.com/pallavi-shekhar/amazon-ecommerce-clone-backend/main/assets/button-view-api-docs.png" width="200" height="60"/>
 </a>
@@ -72,7 +72,7 @@ I am Pallavi, and I have created this project for my learning purpose. I aimed t
     * To run the tests execute `npm test`.
 
 
-* Build and run Amazon E-Commerece Clone Backend using Docker Compose 
+* Build and run Amazon Ecommerce Clone Backend using Docker Compose 
     * Clone this repo.
     * Make a copy of **.env.example** file to **.env**.
     * Make a copy of **keys/private.pem.example** file to **keys/private.pem**.
